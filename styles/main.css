@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+:root {
+  --clr1: #092327;
+  --clr2: #0b5351;
+  --clr3: #00a9a5;
+  --clr4: #08090a;
+  --clr5: #f4f7f5;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  color: var(--clr5);
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(circle, var(--clr3), var(--clr2));
+  background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+.hide {
+  display: none;
+}
+
+.nav {
+  background: rgba(9, 35, 39, 0.4);
+
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 50%;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: var(--clr5);
+  text-transform: uppercase;
+}
+
+#show-users {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--clr3);
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+}
+
+#users-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.user-details {
+  width: 95%;
+  max-width: 700px;
+  min-width: 300px;
+  color: var(--clr1);
+  background: var(--clr5);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+.user-name {
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--clr4);
+}
+
+.personal-details {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.personal-details > * {
+  flex-basis: 300px;
+}
+
+.values {
+  color: var(--clr3);
+}
+
+.secondary-details {
+  color: var(--clr3);
+}
+
+.address-title,
+.user-phone {
+  color: var(--clr1);
+}
