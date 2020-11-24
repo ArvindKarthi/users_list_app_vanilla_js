@@ -18,6 +18,6 @@ Then I used DOM Manipulatio to update the user-interface.
 I used CSS to style the website didn't use any frameworks
 
 ### 5. HOSTING
-The site is hosted in NETLIFY the link is given above you can take a look at it
+The site is hosted in github pages the link is given above you can take a look at it
 
 Please do go through the files for more explanation.
