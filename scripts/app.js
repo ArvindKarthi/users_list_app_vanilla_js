@@ -46,7 +46,7 @@ const updateUI = (users) => {
 //This function fetches the users data.
 const getUsers = () => {
   // API call goes here,
-  fetch("https://mock-list.free.beeceptor.com/users")
+  fetch("https://mock-api-users.free.beeceptor.com/users")
     .then((response) => {
       return response.json();
     })
