@@ -2,7 +2,7 @@
 A web app which takes data from a mock api and displays it.
 
 ## SITE LINK
-https://app.netlify.com/sites/naughty-golick-7e4b04/overview
+https://naughty-golick-7e4b04.netlify.app/
 
 ## THE PROJECT FLOW
 ### 1. SETTING UP MOCK API
